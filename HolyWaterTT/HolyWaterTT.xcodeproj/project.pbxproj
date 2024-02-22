@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2543F8362B8731FF000BAFB5 /* DotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543F8352B8731FF000BAFB5 /* DotsView.swift */; };
+		2543F8392B873B6D000BAFB5 /* ACarousel in Frameworks */ = {isa = PBXBuildFile; productRef = 2543F8382B873B6D000BAFB5 /* ACarousel */; };
+		2543F83C2B873F44000BAFB5 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543F83B2B873F44000BAFB5 /* BookDetailView.swift */; };
+		2543F83E2B873F4F000BAFB5 /* BookDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543F83D2B873F4F000BAFB5 /* BookDetailViewModel.swift */; };
+		2543F8422B874262000BAFB5 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543F8412B874262000BAFB5 /* RoundedCorner.swift */; };
+		2543F8442B874639000BAFB5 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2543F8432B874639000BAFB5 /* NunitoSans-Regular.ttf */; };
+		25F7FC982B85E26E004B7474 /* HolyWaterTTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FC972B85E26E004B7474 /* HolyWaterTTApp.swift */; };
+		25F7FC9C2B85E26F004B7474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F7FC9B2B85E26F004B7474 /* Assets.xcassets */; };
+		25F7FC9F2B85E26F004B7474 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F7FC9E2B85E26F004B7474 /* Preview Assets.xcassets */; };
+		25F7FCAB2B85E389004B7474 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCAA2B85E389004B7474 /* SplashView.swift */; };
+		25F7FCAE2B85E3A0004B7474 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCAD2B85E3A0004B7474 /* BaseView.swift */; };
+		25F7FCB02B85E3C1004B7474 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCAF2B85E3C1004B7474 /* BaseViewModel.swift */; };
+		25F7FCB22B85E47B004B7474 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCB12B85E47B004B7474 /* SplashViewModel.swift */; };
+		25F7FCBB2B85E7D3004B7474 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCBA2B85E7D3004B7474 /* Images.swift */; };
+		25F7FCBD2B85E966004B7474 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCBC2B85E966004B7474 /* Fonts.swift */; };
+		25F7FCBF2B85EA40004B7474 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCBE2B85EA40004B7474 /* Colors.swift */; };
+		25F7FCC12B85ECEC004B7474 /* Georgia-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25F7FCC02B85ECEC004B7474 /* Georgia-Bold.ttf */; };
+		25F7FCC52B85ECF9004B7474 /* Georgia-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25F7FCC22B85ECF9004B7474 /* Georgia-Italic.ttf */; };
+		25F7FCC62B85ECF9004B7474 /* Georgia-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25F7FCC32B85ECF9004B7474 /* Georgia-BoldItalic.ttf */; };
+		25F7FCC72B85ECF9004B7474 /* Georgia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25F7FCC42B85ECF9004B7474 /* Georgia.ttf */; };
+		25F7FCC92B85EEFE004B7474 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25F7FCC82B85EEFE004B7474 /* NunitoSans-Bold.ttf */; };
+		25F7FCCC2B85F3EC004B7474 /* ProgressAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCCB2B85F3EC004B7474 /* ProgressAnimation.swift */; };
+		25F7FCCF2B86076D004B7474 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCCE2B86076D004B7474 /* LibraryView.swift */; };
+		25F7FCD12B86077B004B7474 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCD02B86077B004B7474 /* LibraryViewModel.swift */; };
+		25F7FCD32B8607EC004B7474 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCD22B8607EC004B7474 /* BaseCoordinator.swift */; };
+		25F7FCD62B860868004B7474 /* BaseFlowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCD52B860868004B7474 /* BaseFlowItem.swift */; };
+		25F7FCD92B86091E004B7474 /* MainFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCD82B86091E004B7474 /* MainFlowCoordinator.swift */; };
+		25F7FCDB2B860964004B7474 /* LibraryFlowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCDA2B860964004B7474 /* LibraryFlowItem.swift */; };
+		25F7FCE02B860A07004B7474 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCDF2B860A07004B7474 /* RootView.swift */; };
+		25F7FCE32B860BBE004B7474 /* ContentViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCE22B860BBE004B7474 /* ContentViewWrapper.swift */; };
+		25F7FCE52B860BFB004B7474 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCE42B860BFB004B7474 /* PlaceholderView.swift */; };
+		25F7FCE82B860FF7004B7474 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCE72B860FF7004B7474 /* View.swift */; };
+		25F7FCEB2B861107004B7474 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCEA2B861107004B7474 /* Library.swift */; };
+		25F7FCEE2B8616C6004B7474 /* Library.json in Resources */ = {isa = PBXBuildFile; fileRef = 25F7FCED2B8616C6004B7474 /* Library.json */; };
+		25F7FCF22B864B09004B7474 /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25F7FCF12B864B09004B7474 /* NunitoSans-SemiBold.ttf */; };
+		25F7FCF52B865B27004B7474 /* BookRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCF42B865B27004B7474 /* BookRowView.swift */; };
+		25F7FCF72B865BF3004B7474 /* BookRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCF62B865BF3004B7474 /* BookRowViewModel.swift */; };
+		25F7FCF92B865CDC004B7474 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCF82B865CDC004B7474 /* Optional.swift */; };
+		25F7FCFF2B867C61004B7474 /* LoopItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FCFE2B867C61004B7474 /* LoopItemRowView.swift */; };
+		25F7FD012B867C76004B7474 /* LoopItemRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F7FD002B867C76004B7474 /* LoopItemRowViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2543F8352B8731FF000BAFB5 /* DotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotsView.swift; sourceTree = "<group>"; };
+		2543F83B2B873F44000BAFB5 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		2543F83D2B873F4F000BAFB5 /* BookDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewModel.swift; sourceTree = "<group>"; };
+		2543F8412B874262000BAFB5 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		2543F8432B874639000BAFB5 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		25F7FC942B85E26E004B7474 /* HolyWaterTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolyWaterTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F7FC972B85E26E004B7474 /* HolyWaterTTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolyWaterTTApp.swift; sourceTree = "<group>"; };
+		25F7FC9B2B85E26F004B7474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25F7FC9E2B85E26F004B7474 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25F7FCAA2B85E389004B7474 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		25F7FCAD2B85E3A0004B7474 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		25F7FCAF2B85E3C1004B7474 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		25F7FCB12B85E47B004B7474 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		25F7FCB82B85E684004B7474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F7FCBA2B85E7D3004B7474 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		25F7FCBC2B85E966004B7474 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		25F7FCBE2B85EA40004B7474 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		25F7FCC02B85ECEC004B7474 /* Georgia-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Georgia-Bold.ttf"; sourceTree = "<group>"; };
+		25F7FCC22B85ECF9004B7474 /* Georgia-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Georgia-Italic.ttf"; sourceTree = "<group>"; };
+		25F7FCC32B85ECF9004B7474 /* Georgia-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Georgia-BoldItalic.ttf"; sourceTree = "<group>"; };
+		25F7FCC42B85ECF9004B7474 /* Georgia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Georgia.ttf; sourceTree = "<group>"; };
+		25F7FCC82B85EEFE004B7474 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		25F7FCCB2B85F3EC004B7474 /* ProgressAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressAnimation.swift; sourceTree = "<group>"; };
+		25F7FCCE2B86076D004B7474 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		25F7FCD02B86077B004B7474 /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
+		25F7FCD22B8607EC004B7474 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		25F7FCD52B860868004B7474 /* BaseFlowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFlowItem.swift; sourceTree = "<group>"; };
+		25F7FCD82B86091E004B7474 /* MainFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowCoordinator.swift; sourceTree = "<group>"; };
+		25F7FCDA2B860964004B7474 /* LibraryFlowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryFlowItem.swift; sourceTree = "<group>"; };
+		25F7FCDF2B860A07004B7474 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		25F7FCE22B860BBE004B7474 /* ContentViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewWrapper.swift; sourceTree = "<group>"; };
+		25F7FCE42B860BFB004B7474 /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
+		25F7FCE72B860FF7004B7474 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		25F7FCEA2B861107004B7474 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		25F7FCED2B8616C6004B7474 /* Library.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Library.json; sourceTree = "<group>"; };
+		25F7FCF12B864B09004B7474 /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		25F7FCF42B865B27004B7474 /* BookRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRowView.swift; sourceTree = "<group>"; };
+		25F7FCF62B865BF3004B7474 /* BookRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRowViewModel.swift; sourceTree = "<group>"; };
+		25F7FCF82B865CDC004B7474 /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		25F7FCFE2B867C61004B7474 /* LoopItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopItemRowView.swift; sourceTree = "<group>"; };
+		25F7FD002B867C76004B7474 /* LoopItemRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopItemRowViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25F7FC912B85E26E004B7474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2543F8392B873B6D000BAFB5 /* ACarousel in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2543F83A2B873EBE000BAFB5 /* BookDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				2543F83B2B873F44000BAFB5 /* BookDetailView.swift */,
+				2543F83D2B873F4F000BAFB5 /* BookDetailViewModel.swift */,
+			);
+			path = BookDetailView;
+			sourceTree = "<group>";
+		};
+		25F7FC8B2B85E26E004B7474 = {
+			isa = PBXGroup;
+			children = (
+				25F7FC962B85E26E004B7474 /* HolyWaterTT */,
+				25F7FC952B85E26E004B7474 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25F7FC952B85E26E004B7474 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25F7FC942B85E26E004B7474 /* HolyWaterTT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25F7FC962B85E26E004B7474 /* HolyWaterTT */ = {
+			isa = PBXGroup;
+			children = (
+				25F7FCE92B8610FD004B7474 /* Models */,
+				25F7FCE62B860FF0004B7474 /* Extensions */,
+				25F7FCD72B860913004B7474 /* Coordinators */,
+				25F7FCD42B86084D004B7474 /* FlowItem */,
+				25F7FCCA2B85F3C6004B7474 /* AdditionalView */,
+				25F7FCB92B85E7CA004B7474 /* Resources */,
+				25F7FCAC2B85E38F004B7474 /* Architecture */,
+				25F7FCA82B85E366004B7474 /* Modules */,
+				25F7FCA52B85E29E004B7474 /* App */,
+				25F7FC9D2B85E26F004B7474 /* Preview Content */,
+			);
+			path = HolyWaterTT;
+			sourceTree = "<group>";
+		};
+		25F7FC9D2B85E26F004B7474 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				25F7FC9E2B85E26F004B7474 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25F7FCA52B85E29E004B7474 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				25F7FCB82B85E684004B7474 /* Info.plist */,
+				25F7FC972B85E26E004B7474 /* HolyWaterTTApp.swift */,
+				25F7FC9B2B85E26F004B7474 /* Assets.xcassets */,
+				25F7FCED2B8616C6004B7474 /* Library.json */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		25F7FCA82B85E366004B7474 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2543F83A2B873EBE000BAFB5 /* BookDetailView */,
+				25F7FCCD2B860753004B7474 /* LibraryView */,
+				25F7FCA92B85E37D004B7474 /* SplashView */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		25F7FCA92B85E37D004B7474 /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				25F7FCAA2B85E389004B7474 /* SplashView.swift */,
+				25F7FCB12B85E47B004B7474 /* SplashViewModel.swift */,
+			);
+			path = SplashView;
+			sourceTree = "<group>";
+		};
+		25F7FCAC2B85E38F004B7474 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				25F7FCD52B860868004B7474 /* BaseFlowItem.swift */,
+				25F7FCAD2B85E3A0004B7474 /* BaseView.swift */,
+				25F7FCAF2B85E3C1004B7474 /* BaseViewModel.swift */,
+				25F7FCD22B8607EC004B7474 /* BaseCoordinator.swift */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		25F7FCB92B85E7CA004B7474 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25F7FCC02B85ECEC004B7474 /* Georgia-Bold.ttf */,
+				25F7FCC32B85ECF9004B7474 /* Georgia-BoldItalic.ttf */,
+				25F7FCC22B85ECF9004B7474 /* Georgia-Italic.ttf */,
+				25F7FCC42B85ECF9004B7474 /* Georgia.ttf */,
+				25F7FCC82B85EEFE004B7474 /* NunitoSans-Bold.ttf */,
+				25F7FCF12B864B09004B7474 /* NunitoSans-SemiBold.ttf */,
+				2543F8432B874639000BAFB5 /* NunitoSans-Regular.ttf */,
+				25F7FCBA2B85E7D3004B7474 /* Images.swift */,
+				25F7FCBC2B85E966004B7474 /* Fonts.swift */,
+				25F7FCBE2B85EA40004B7474 /* Colors.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		25F7FCCA2B85F3C6004B7474 /* AdditionalView */ = {
+			isa = PBXGroup;
+			children = (
+				25F7FCCB2B85F3EC004B7474 /* ProgressAnimation.swift */,
+				25F7FCE42B860BFB004B7474 /* PlaceholderView.swift */,
+				25F7FCE22B860BBE004B7474 /* ContentViewWrapper.swift */,
+				25F7FCDF2B860A07004B7474 /* RootView.swift */,
+				2543F8352B8731FF000BAFB5 /* DotsView.swift */,
+				2543F8412B874262000BAFB5 /* RoundedCorner.swift */,
+			);
+			path = AdditionalView;
+			sourceTree = "<group>";
+		};
+		25F7FCCD2B860753004B7474 /* LibraryView */ = {
+			isa = PBXGroup;
+			children = (
+				25F7FCFD2B867C4D004B7474 /* LoopItemRowView */,
+				25F7FCF32B865B1D004B7474 /* BookRow */,
+				25F7FCCE2B86076D004B7474 /* LibraryView.swift */,
+				25F7FCD02B86077B004B7474 /* LibraryViewModel.swift */,
+			);
+			path = LibraryView;
+			sourceTree = "<group>";
+		};
+		25F7FCD42B86084D004B7474 /* FlowItem */ = {
+			isa = PBXGroup;
+			children = (
+				25F7FCDA2B860964004B7474 /* LibraryFlowItem.swift */,
+			);
+			path = FlowItem;
+			sourceTree = "<group>";
+		};
+		25F7FCD72B860913004B7474 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				25F7FCD82B86091E004B7474 /* MainFlowCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		25F7FCE62B860FF0004B7474 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				25F7FCE72B860FF7004B7474 /* View.swift */,
+				25F7FCF82B865CDC004B7474 /* Optional.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		25F7FCE92B8610FD004B7474 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				25F7FCEA2B861107004B7474 /* Library.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25F7FCF32B865B1D004B7474 /* BookRow */ = {
+			isa = PBXGroup;
+			children = (
+				25F7FCF42B865B27004B7474 /* BookRowView.swift */,
+				25F7FCF62B865BF3004B7474 /* BookRowViewModel.swift */,
+			);
+			path = BookRow;
+			sourceTree = "<group>";
+		};
+		25F7FCFD2B867C4D004B7474 /* LoopItemRowView */ = {
+			isa = PBXGroup;
+			children = (
+				25F7FCFE2B867C61004B7474 /* LoopItemRowView.swift */,
+				25F7FD002B867C76004B7474 /* LoopItemRowViewModel.swift */,
+			);
+			path = LoopItemRowView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25F7FC932B85E26E004B7474 /* HolyWaterTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F7FCA22B85E26F004B7474 /* Build configuration list for PBXNativeTarget "HolyWaterTT" */;
+			buildPhases = (
+				25F7FC902B85E26E004B7474 /* Sources */,
+				25F7FC912B85E26E004B7474 /* Frameworks */,
+				25F7FC922B85E26E004B7474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolyWaterTT;
+			packageProductDependencies = (
+				2543F8382B873B6D000BAFB5 /* ACarousel */,
+			);
+			productName = HolyWaterTT;
+			productReference = 25F7FC942B85E26E004B7474 /* HolyWaterTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25F7FC8C2B85E26E004B7474 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					25F7FC932B85E26E004B7474 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 25F7FC8F2B85E26E004B7474 /* Build configuration list for PBXProject "HolyWaterTT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25F7FC8B2B85E26E004B7474;
+			packageReferences = (
+				2543F8372B873B6D000BAFB5 /* XCRemoteSwiftPackageReference "ACarousel" */,
+			);
+			productRefGroup = 25F7FC952B85E26E004B7474 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25F7FC932B85E26E004B7474 /* HolyWaterTT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25F7FC922B85E26E004B7474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F7FCEE2B8616C6004B7474 /* Library.json in Resources */,
+				25F7FCC12B85ECEC004B7474 /* Georgia-Bold.ttf in Resources */,
+				25F7FC9F2B85E26F004B7474 /* Preview Assets.xcassets in Resources */,
+				25F7FCC72B85ECF9004B7474 /* Georgia.ttf in Resources */,
+				25F7FCC62B85ECF9004B7474 /* Georgia-BoldItalic.ttf in Resources */,
+				25F7FCF22B864B09004B7474 /* NunitoSans-SemiBold.ttf in Resources */,
+				25F7FC9C2B85E26F004B7474 /* Assets.xcassets in Resources */,
+				2543F8442B874639000BAFB5 /* NunitoSans-Regular.ttf in Resources */,
+				25F7FCC52B85ECF9004B7474 /* Georgia-Italic.ttf in Resources */,
+				25F7FCC92B85EEFE004B7474 /* NunitoSans-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25F7FC902B85E26E004B7474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F7FCD92B86091E004B7474 /* MainFlowCoordinator.swift in Sources */,
+				25F7FCBD2B85E966004B7474 /* Fonts.swift in Sources */,
+				25F7FCBF2B85EA40004B7474 /* Colors.swift in Sources */,
+				25F7FCCC2B85F3EC004B7474 /* ProgressAnimation.swift in Sources */,
+				25F7FCB22B85E47B004B7474 /* SplashViewModel.swift in Sources */,
+				25F7FCBB2B85E7D3004B7474 /* Images.swift in Sources */,
+				25F7FD012B867C76004B7474 /* LoopItemRowViewModel.swift in Sources */,
+				25F7FCE82B860FF7004B7474 /* View.swift in Sources */,
+				25F7FCAE2B85E3A0004B7474 /* BaseView.swift in Sources */,
+				25F7FCB02B85E3C1004B7474 /* BaseViewModel.swift in Sources */,
+				25F7FCE52B860BFB004B7474 /* PlaceholderView.swift in Sources */,
+				25F7FCF72B865BF3004B7474 /* BookRowViewModel.swift in Sources */,
+				25F7FCEB2B861107004B7474 /* Library.swift in Sources */,
+				25F7FCF52B865B27004B7474 /* BookRowView.swift in Sources */,
+				2543F83E2B873F4F000BAFB5 /* BookDetailViewModel.swift in Sources */,
+				25F7FCE02B860A07004B7474 /* RootView.swift in Sources */,
+				25F7FC982B85E26E004B7474 /* HolyWaterTTApp.swift in Sources */,
+				25F7FCE32B860BBE004B7474 /* ContentViewWrapper.swift in Sources */,
+				25F7FCD62B860868004B7474 /* BaseFlowItem.swift in Sources */,
+				25F7FCD32B8607EC004B7474 /* BaseCoordinator.swift in Sources */,
+				25F7FCCF2B86076D004B7474 /* LibraryView.swift in Sources */,
+				25F7FCD12B86077B004B7474 /* LibraryViewModel.swift in Sources */,
+				2543F8362B8731FF000BAFB5 /* DotsView.swift in Sources */,
+				2543F83C2B873F44000BAFB5 /* BookDetailView.swift in Sources */,
+				25F7FCFF2B867C61004B7474 /* LoopItemRowView.swift in Sources */,
+				25F7FCAB2B85E389004B7474 /* SplashView.swift in Sources */,
+				25F7FCDB2B860964004B7474 /* LibraryFlowItem.swift in Sources */,
+				2543F8422B874262000BAFB5 /* RoundedCorner.swift in Sources */,
+				25F7FCF92B865CDC004B7474 /* Optional.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25F7FCA02B85E26F004B7474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25F7FCA12B85E26F004B7474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25F7FCA32B85E26F004B7474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HolyWaterTT/Preview Content\"";
+				DEVELOPMENT_TEAM = 25Z5JTFSHB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HolyWaterTT/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artemkedrov.HolyWaterTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25F7FCA42B85E26F004B7474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HolyWaterTT/Preview Content\"";
+				DEVELOPMENT_TEAM = 25Z5JTFSHB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HolyWaterTT/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artemkedrov.HolyWaterTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25F7FC8F2B85E26E004B7474 /* Build configuration list for PBXProject "HolyWaterTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F7FCA02B85E26F004B7474 /* Debug */,
+				25F7FCA12B85E26F004B7474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F7FCA22B85E26F004B7474 /* Build configuration list for PBXNativeTarget "HolyWaterTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F7FCA32B85E26F004B7474 /* Debug */,
+				25F7FCA42B85E26F004B7474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2543F8372B873B6D000BAFB5 /* XCRemoteSwiftPackageReference "ACarousel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JWAutumn/ACarousel";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2543F8382B873B6D000BAFB5 /* ACarousel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2543F8372B873B6D000BAFB5 /* XCRemoteSwiftPackageReference "ACarousel" */;
+			productName = ACarousel;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 25F7FC8C2B85E26E004B7474 /* Project object */;
+}
